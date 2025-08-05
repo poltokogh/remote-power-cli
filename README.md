@@ -9,6 +9,6 @@ Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -confirm:$false
 
 Connect remote
 ```
-$server = "172.23.0.20"
+$server = "172.23.0.xx"
 Connect-VIServer -Server $server
 ```
