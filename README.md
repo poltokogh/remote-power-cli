@@ -1,4 +1,4 @@
-# Setup
+# Setup Remote vCenter
 Jalankan script dibawah untuk install dan setup module.
 
 ```
