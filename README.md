@@ -7,7 +7,7 @@ Import-Module VMware.PowerCLI.VIMAutomation.Core
 Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -confirm:$false
 ```
 
-Connect remote
+Connect remote vCenter
 ```
 $server = "172.23.0.xx"
 Connect-VIServer -Server $server
